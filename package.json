@@ -1,0 +1,67 @@
+{
+  "name": "vscode-quick-log",
+  "displayName": "Quick Log by Jianvey",
+  "description": "Insert console.log with one shortcut, a custom prefix, and a configurable message template.",
+  "version": "1.0.0",
+  "publisher": "quick-log",
+  "author": "Jianvey",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jianvey/vscode-quick-log.git"
+  },
+  "homepage": "https://github.com/Jianvey/vscode-quick-log#readme",
+  "bugs": {
+    "url": "https://github.com/Jianvey/vscode-quick-log/issues"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Other"],
+  "keywords": ["console", "console.log", "logging", "javascript", "typescript", "vue", "debugging"],
+  "main": "./extension.js",
+  "scripts": {
+    "check": "node --check extension.js && node --check test/run.js && node --check scripts/test.js",
+    "test": "node scripts/test.js",
+    "package": "vsce package --no-dependencies",
+    "publish:marketplace": "vsce publish --no-dependencies --oidc"
+  },
+  "packageManager": "pnpm@12.15.0",
+  "devDependencies": {
+    "@vscode/test-electron": "3.1.0",
+    "@vscode/vsce": "4.1.0"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "quickLog.insert",
+        "title": "Quick Log: Insert Console Log"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "quickLog.insert",
+        "key": "ctrl+shift+l",
+        "mac": "cmd+shift+l",
+        "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^(javascript|javascriptreact|typescript|typescriptreact|vue)$/"
+      }
+    ],
+    "configuration": {
+      "title": "Quick Log",
+      "properties": {
+        "quickLog.prefix": {
+          "type": "string",
+          "default": "🚀",
+          "scope": "resource",
+          "description": "Prefix used by the message template. Set an empty string to omit the prefix."
+        },
+        "quickLog.messageTemplate": {
+          "type": "string",
+          "default": "{prefix} {variable}: ",
+          "scope": "resource",
+          "description": "Log label template. {prefix} inserts the configured prefix, and {variable} inserts the selected variable or expression. Literal text is supported. This only changes the quoted label, not the value being logged."
+        }
+      }
+    }
+  }
+}

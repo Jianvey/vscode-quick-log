@@ -32,6 +32,6 @@ The workflow runs the checks and publishes with `vsce publish --oidc`. The same 
 
 For a manual first upload, run `pnpm package` and upload the generated VSIX through the publisher management page.
 
-The extension ID is `jianvey.vscode-quick-log`. If `quick-log.vscode-quick-log` is installed, uninstall it and install the new ID; changing publishers creates a separate Marketplace identity.
+The extension ID is `jianvey.quick-log-console-shortcuts`. If `quick-log.vscode-quick-log` is installed, uninstall it and install the new ID; changing publishers creates a separate Marketplace identity.
 
 See the official [extension publishing guide](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) for account setup and troubleshooting.

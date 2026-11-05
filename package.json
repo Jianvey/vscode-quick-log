@@ -3,7 +3,7 @@
   "displayName": "Quick Log: Console Shortcuts",
   "description": "Insert console.log with one shortcut, a custom prefix, and a configurable message template.",
   "version": "1.0.2",
-  "publisher": "quick-log",
+  "publisher": "jianvey",
   "author": "Jianvey",
   "license": "MIT",
   "icon": "assets/icon.png",

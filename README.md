@@ -1,5 +1,7 @@
 # Quick Log: Console Shortcuts
 
+![Quick Log icon](assets/icon.png)
+
 Insert `console.log` with one keyboard shortcut and customize the generated label through VS Code settings.
 
 Quick Log has no runtime dependencies, background file scanning, file watchers, telemetry, or network requests. It activates when you run its command.

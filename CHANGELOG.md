@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2
+
+- Add a 128x128 extension icon for the Marketplace and VS Code extension list.
+
 ## 1.0.1
 
 - Rename the extension to **Quick Log: Console Shortcuts**.

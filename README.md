@@ -1,4 +1,4 @@
-# Quick Log
+# Quick Log: Console Shortcuts
 
 Insert `console.log` with one keyboard shortcut and customize the generated label through VS Code settings.
 
@@ -6,7 +6,7 @@ Quick Log has no runtime dependencies, background file scanning, file watchers, 
 
 ## Install
 
-Install **Quick Log by Jianvey** from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=quick-log.vscode-quick-log), or run this command in VS Code Quick Open:
+Install **Quick Log: Console Shortcuts** from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=quick-log.vscode-quick-log), or run this command in VS Code Quick Open:
 
 ```text
 ext install quick-log.vscode-quick-log

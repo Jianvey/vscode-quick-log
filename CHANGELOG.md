@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- Rename the extension to **Quick Log: Console Shortcuts**.
+
 ## 1.0.0
 
 - Insert `console.log` using a keyboard shortcut.

@@ -1,8 +1,8 @@
 {
   "name": "vscode-quick-log",
-  "displayName": "Quick Log by Jianvey",
+  "displayName": "Quick Log: Console Shortcuts",
   "description": "Insert console.log with one shortcut, a custom prefix, and a configurable message template.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "quick-log",
   "author": "Jianvey",
   "license": "MIT",

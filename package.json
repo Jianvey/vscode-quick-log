@@ -1,6 +1,6 @@
 {
   "name": "quick-log-console-shortcuts",
-  "displayName": "Quick Log: Console Shortcuts",
+  "displayName": "Quick Log – Console Shortcuts",
   "description": "Insert console.log with one shortcut, a custom prefix, and a configurable message template.",
   "version": "1.0.2",
   "publisher": "jianvey",

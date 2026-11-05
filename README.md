@@ -1,4 +1,4 @@
-# Quick Log: Console Shortcuts
+# Quick Log – Console Shortcuts
 
 ![Quick Log icon](assets/icon.png)
 
@@ -8,7 +8,7 @@ Quick Log has no runtime dependencies, background file scanning, file watchers, 
 
 ## Install
 
-Install **Quick Log: Console Shortcuts** from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jianvey.quick-log-console-shortcuts), or run this command in VS Code Quick Open:
+Install **Quick Log – Console Shortcuts** from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jianvey.quick-log-console-shortcuts), or run this command in VS Code Quick Open:
 
 ```text
 ext install jianvey.quick-log-console-shortcuts
